@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<title>The 3 Selectors : Class</title>
+		<style type="text/css">
+		/*light blue #70b2c2*/
+		/*dark blue #336d79*/
+		/*gold #cca80c*/
+		/*white #ffffff*/
+		body{
+			background-color: #70b2c2;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		#nav{
+			background-color: #cca80c;
+			padding: 10px;
+			width: 800px;
+			text-align: center;
+			color: #ffffff;
+
+			/*long winded way of doing it*/
+			margin-bottom: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+
+			/*fist number top and bottom, second number left and right*/
+			margin: 20px auto;
+
+			/*first=top, second=right, third=bottom, forth=left (clockwise from top)*/
+			margin: 20px auto 20px auto;
+		}
+		.container{
+			background-color: #ffffff;
+			width:1024px;
+			margin-left:auto;
+			margin-right: auto;
+			padding: 20px;
+		}
+		.confuzing512{
+			background-color: #cccccc;
+		}
+		h1{
+			background-color: #336d79; /*this is my dark blue*/
+			color: #ffffff;
+			padding: 10px;
+			text-align: center;
+		}
+		h2{
+			color: #336d79;
+		}
+		h3{
+			color: #336d79;
+		}
+		.imgFloat{
+			float: left;
+			margin-right: 10px;
+		}
+		a:link{
+			color: #ffffff;
+			text-decoration: none;
+			margin: 0px 20px;
+			font-size: 20px;
+			font-weight: 700;
+		}
+		a:visited{
+			color: #cccccc;
+		}
+		a:hover{
+			color: #336d79;
+		}
+		a:active{
+			color: #cca80c;
+
+		}
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Site Title -->
+			<h1>The 3 Selectors</h1>
+
+			<!-- Navigation  -->
+			<div id="nav">
+				<a href="tag.html">Tag</a>
+				<a href="class.html">Class</a>
+				<a href="id.html">ID</a>
+			</div>
+
+			<!-- article -->
+			<p>Class ILLUSTRATION TO FLOAT GOES HERE</p>
+			<div class="imgFloat">
+				<img src="_images/2_class.jpg" alt="css classes image">
+			</div>
+
+			<h2>Class Selector</h2>
+
+			<div class="confuzing512">
+				<p>An Class selector is a label used to define a set of elements within an HTML document. Class names can repeat to allow for more specific control over sets of elements, without the concern of collision.</p>
+			</div>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum, placeat ullam cumque doloribus officiis asperiores omnis aliquam vel excepturi dolor quos eveniet ut fuga esse commodi harum debitis itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum, placeat ullam cumque doloribus officiis asperiores omnis aliquam vel excepturi dolor quos eveniet ut fuga esse commodi harum debitis itaque.</p>
+
+			<div class="confuzing512">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum, placeat ullam cumque doloribus officiis asperiores omnis aliquam vel excepturi dolor quos eveniet ut fuga esse commodi harum debitis itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum, placeat ullam cumque doloribus officiis asperiores omnis aliquam vel excepturi dolor quos eveniet ut fuga esse commodi harum debitis itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum, placeat ullam cumque doloribus officiis asperiores omnis aliquam vel excepturi dolor quos eveniet ut fuga esse commodi harum debitis itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum, placeat ullam cumque doloribus officiis asperiores omnis aliquam vel excepturi dolor quos eveniet ut fuga esse commodi harum debitis itaque.</p>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum, placeat ullam cumque doloribus officiis asperiores omnis aliquam vel excepturi dolor quos eveniet ut fuga esse commodi harum debitis itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illum, placeat ullam cumque doloribus officiis asperiores omnis aliquam vel excepturi dolor quos eveniet ut fuga esse commodi harum debitis itaque.</p>
+
+			<!-- footer -->
+			<h3>&copy; The 3 Selectors 2013. All rights reserved.</h3>
+		</div>
+	</body>
+</html>
