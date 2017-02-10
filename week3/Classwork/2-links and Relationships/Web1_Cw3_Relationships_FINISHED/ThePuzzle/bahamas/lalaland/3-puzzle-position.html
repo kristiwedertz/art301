@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+		<title>Positioning :: Document Relationships</title>
+		<link rel="stylesheet" href="../../styles.css">
+		<style type="text/css">
+			/*Your styles for this page will go here*/
+			.solution {
+				width:500px;
+				height:375px;
+
+				margin-left:auto;
+				margin-right:auto;
+
+				position:relative;
+			}
+
+			#circleImg1{
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			#circleImg2{
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+			#circleImg3{
+				position: absolute;
+				top: 125px;
+				right: 0;
+			}
+			#circleImg4{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
+
+		</style>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+	</head>
+	<body class="position">
+		<div id="container">
+			<h1>Puzzle 3 Positioned</h1>
+
+			<div class="solution">
+				<img id="circleImg1" src="../timbuktu/left.jpg">
+				<img id="circleImg2" src="../timbuktu/columbia/right_top.jpg">
+				<img id="circleImg3" src="../right_middle.jpg">
+				<img id="circleImg4" src="right_bottom.jpg">
+			</div>
+
+			<div class="note">
+				<p>
+					Given the Keys provided for going into folders (e.g. folder/) and back directories (e.g. ../), 
+				 	you are responsible for linking this document to the <b>puzzle images</b> and <b>external style sheet</b>.
+				 </p> 
+				<p>
+					Once you have completed the 3 puzzles, we will look at aligning the images to 
+					give the appearance of one composite image through the use of Tables, Floats, and Positioning.
+				</p> 
+				<p>
+					If you are quick as a whip, you are welcome to try to align them on your own. However, please be sure to complete the puzzles first, and know that answers/guidance will be given to the class as a whole. In other words, you are on you own until we all get there. :)
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

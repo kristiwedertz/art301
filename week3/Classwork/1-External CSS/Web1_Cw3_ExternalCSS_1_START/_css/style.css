@@ -1,0 +1,14 @@
+/* Your page specific styles go here*/
+body {
+	background-color:#382959;
+}
+#container {
+	background-color:#eeeeee;
+	padding:25px; 
+	margin: 0px auto;
+	width: 1366px;
+	border-radius:10px;
+}
+h1{
+	text-align: center;
+}

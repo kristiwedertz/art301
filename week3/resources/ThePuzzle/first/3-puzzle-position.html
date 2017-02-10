@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<title>Positioning :: Document Relationships</title>
+		<link rel="stylesheet" href="../styles.css">
+		<style type="text/css">
+			/*Your styles for this page will go here*/
+			.solution{
+				position: relative;
+			}
+
+			#top{
+				position: absolute;
+				top:0px;
+				left: 0px;
+			}
+
+			#bL{
+				position: absolute;
+				bottom: 0px;
+				left: 0px;
+			}
+
+			#bLM{
+				position: absolute;
+				bottom: 0px;
+				left: 175px;
+			}
+
+			#bRM{
+				position: absolute;
+				bottom: 0px;
+				right: 175px;
+			}
+
+			#bR{
+				position: absolute;
+				bottom: 0px;
+				right: 0px;
+			}
+
+		</style>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+	</head>
+	<body class="position">
+		<div id="container">
+			<h1>Puzzle 3 Positioned</h1>
+
+			<div class="solution">
+				<img id="top" src="../locationA/locationB/top.jpg">
+				<img id="bL" src="../locationA/bott-left.jpg">
+				<img id="bLM" src="bott-left-middle.jpg">
+				<img id="bRM" src="second/bott-right-middle.jpg">
+				<img id="bR" src="second/third/bott-right.jpg">
+			</div>
+
+			<div class="note">
+				<p>
+					Given the Keys provided for going into folders (e.g. folder/) and back directories (e.g. ../), 
+				 	you are responsible for linking this document to the <b>puzzle images</b> and <b>external style sheet</b>.
+				 </p> 
+				<p>
+					Once you have completed the 3 puzzles, we will look at aligning the images to 
+					give the appearance of one composite image through the use of Tables, Floats, and Positioning.
+				</p> 
+				<p>
+					If you are quick as a whip, you are welcome to try to align them on your own. However, please be sure to complete the puzzles first, and know that answers/guidance will be given to the class as a whole. In other words, you are on you own until we all get there. :)
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

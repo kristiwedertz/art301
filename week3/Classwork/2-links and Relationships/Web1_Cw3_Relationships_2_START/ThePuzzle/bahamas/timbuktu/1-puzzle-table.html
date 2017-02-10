@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+		<title>Tables :: Document Relationships</title>
+		<link rel="stylesheet" href="../../styles.css">
+		<style type="text/css">
+			/*Your styles for this page will go here*/
+			table {
+				/*font-size:0px;*/
+				line-height:0px;
+			}
+		</style>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+	</head>
+	<body class="table">
+		<div id="container">
+			<h1>Puzzle 1 Tables</h1>
+
+			<table border="1" cellspacing="10" cellpadding="15">
+				<tr>
+					<td>Cell 1</td>
+					<td>Cell 2</td>
+					<td>Cell 3</td>
+				</tr>
+				<tr>
+					<td colspan="2">Cell 4</td>
+					<!-- Cell 5 -->
+					<td rowspan="2">Cell 6</td>
+				</tr>
+				<tr>
+					<td>Cell 7</td>
+					<td>Cell 8</td>
+					<!-- <td>Cell 9</td> -->
+				</tr>
+			</table>
+
+			<div class="solution">
+				<table cellspacing="0" cellpadding="0">
+					<tr>
+						<td rowspan="3"><img src="left.jpg"></td>
+						<td><img src="columbia/right_top.jpg"></td>
+					</tr>
+					<tr>
+						<td><img src="../right_middle.jpg"></td>
+					</tr>
+					<tr>
+						<td><img src="../lalaland/right_bottom.jpg"></td>
+					</tr>
+						
+				</table>
+			</div>
+
+			<div class="note">
+				<p>
+					Given the Keys provided for going into folders (e.g. folder/) and back directories (e.g. ../), 
+				 	you are responsible for linking this document to the <b>puzzle images</b> and <b>external style sheet</b>.
+				 </p> 
+				<p>
+					Once you have completed the 3 puzzles, we will look at aligning the images to 
+					give the appearance of one composite image through the use of Tables, Floats, and Positioning.
+				</p> 
+				<p>
+					If you are quick as a whip, you are welcome to try to align them on your own. However, please be sure to complete the puzzles first, and know that answers/guidance will be given to the class as a whole. In other words, you are on you own until we all get there. :)
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
